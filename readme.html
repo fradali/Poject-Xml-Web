@@ -1,0 +1,49 @@
+<br>
+	 * XML Project : Xml modification et creation xml simplifiée<br>
+	 * @version		1.0.0<br>
+	 * @authors 		Frad Ali and Jmal Chadly	<br> 	 
+
+---------------------------------------------------------------------------------------------<br>
+Description :<br>
+=============<br>
+
+on peut manipuler du XML tr&egrave;s facilement.
+<br />
+<br />Le projet  permet de :
+
+<ul><li> Parser du xml
+</li><li> Lire de fichier sous la forme d'objets
+</li><li> Surcharger les objets de chaque noeud
+</li><li
+> De manipuler intuitivement les donn&eacute;es
+</li><li> De sauvegarder les modifications</li>
+<li> lecture et affichage , ajout ( de fichier XML USERS ) </li>
+</ul>
+<br />
+<br />Un exemple est joint &agrave; la classe, le
+ cas d'&eacute;tude est de manipuler une liste d'utilisateurs dans un fichier XML.
+<br />
+<br />Explication : 
+<br />-------------
+<br />
+<br />Un seul fic
+hier contient la d&eacute;finition de la classe, c'est xml.class.php.
+<br />
+<br />La classe xmlNode d&eacute;finit de mani&egrave;re g&eacute;n&eacute;rique 
+le contenu du nœud.
+<br />
+<br />La classe xmlMap d&eacute;finit le chargement
+, lecture et sauvegarde d'un fichier. Elle repr&eacute;sente &eacute;galement le
+s donn&eacute;es du noeud parent du document xml et elle h&eacute;rite de xmlNod
+e.
+<br>
+<br> C'est possible de surcharger cette classe, dans ce cas dans le
+ constructeur vous pouvez utiliser les fonctions suivantes :
+
+<ul><li> hasMany
+(tagname) : indique de tel tag est une liste / permet de le mettre dans un array
+ m&ecirc;me si un seul tag est trouv&eacute;.
+</li><li> mapTag(tagname, classna
+me) : charge la classe sp&eacute;cifi&eacute;e pour le tag indiqu&eacute;. La cl
+asse indiqu&eacute;e doit h&eacute;riter de xmlNode</li></ul>
+<br />

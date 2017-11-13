@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<users>
+	<user>
+		<name>Jmal chadly</name>
+		<login>chadly</login>
+		<email>JCh@xmlmap.com</email>
+		<password>test123</password>
+		<lastLogin>1246275979</lastLogin>
+	</user>
+	<user>
+		<name>Tom</name>
+		<login>tommy</login>
+		<email>tom@xmlmap.com</email>
+		<password>testYah</password>
+		<lastLogin>0</lastLogin>
+	</user>
+	<user>
+		<name>Brad</name>
+		<login>test</login>
+		<email>brad@xmlmap.com</email>
+		<password>test</password>
+		<lastLogin>0</lastLogin>
+	</user>
+	<user>
+		<name>Frad ALI</name>
+		<login>test2</login>
+		<email>alifrad@xmlmap.com</email>
+		<password>123</password>
+		<lastLogin>1424249438</lastLogin>
+	</user>
+</users>
